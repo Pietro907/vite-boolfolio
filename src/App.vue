@@ -25,12 +25,23 @@ export default {
 
 <template>
   
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="card text-center">
-        <h1>Ciao</h1>
-        <h2 v-for="project in projects.data">{{ project.title }}</h2>
+<div class="container my-2 bg-primary-subtle">
+
+  <h1 class="text-center mt-5">Projects</h1>
+
+  <div class="row justify-content-center flex-wrap">
+    <div v-for="project in projects.data" class="col-2 my-5">
+      <div class="card bg-success-subtle text-center h-100 p-3">
+        <!-- <h2>{{ project.id }}</h2> -->
+        <!-- <h2>{{ project.type_id }}</h2> -->
+        <h2>{{ project.thumb }}</h2>
+        <h5 class="mt-3">{{ project.title }}</h5>
+        <p>{{ project.description }}</p>
+        <p>{{ project.authors }}</p>
+        <h6>{{ project.slug }}</h6>
+        <h6>{{ project.tech }}</h6>
+        <a href="https://github.com/Pietro907/vite-boolflix/blob/main/src/App.vue">{{ project.link }}</a>
+        <a href="https://github.com/Pietro907/vite-boolflix/blob/main/src/App.vue">{{ project.github_link }}</a>
       </div>
     </div>
   </div>
