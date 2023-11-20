@@ -1,4 +1,5 @@
 <script>
+
 export default {
   name: 'App',
 }
@@ -16,22 +17,22 @@ export default {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mainNav">
+
           <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <router-link class="nav-link active" to="/" aria-current="page">Home <span
-                  class="visually-hidden">(current)</span></router-link>
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/about">About</router-link>
-            </li>
 
             <li class="nav-item">
-              <router-link class="nav-link" to="/blog">Blog</router-link>
+              <router-link class="nav-link active" to="/" aria-current="page">Home<span
+                  class="visually-hidden">(current)</span></router-link>
+            </li>
+            <!-- <li class="nav-item">
+              <router-link class="nav-link" to="/about">About</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/contacts">Contacts</router-link>
-            </li>
+            </li> -->
+
           </ul>
+
           <div class="admin">
             <a href="http://127.0.0.1:8001/admin" class="btn" target="__blank">
               Admin <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
