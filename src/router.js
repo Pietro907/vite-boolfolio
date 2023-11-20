@@ -14,8 +14,6 @@ const routes = [
     //iniziare il path sempre con lo /
     { path: '/', component: HomeView},
     
-/*     { path: '/about', component: AboutView},
-    { path: '/contacts', component: ContactsView}, */
 ]
 
 const router = createRouter( {
