@@ -2,6 +2,10 @@
 
 export default {
   name: 'App',
+  components: {
+    
+  }
+
 }
 
 
@@ -51,9 +55,13 @@ export default {
 
   </header>
 
-  <main class="py-4">
+  <main class="py-4 img_bg">
+
+    
 
     <router-view></router-view>
+
+
 
   </main>
 
@@ -95,4 +103,15 @@ export default {
   </footer>
 </template>
 
-<style></style>
+<style scope>
+/* body{
+  background: ;
+} */
+/* .img_bg{
+    background: url(../assets/img/bg-portfolio.jpg);
+    object-fit: cover;
+    object-position: right;
+}
+ */
+
+</style>

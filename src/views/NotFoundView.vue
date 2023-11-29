@@ -10,11 +10,8 @@ export default {
 </script>
 
 <template>
-    <div>
+    <h1>Nothing, 404 😭</h1>
 
-    </div>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
